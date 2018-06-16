@@ -6,7 +6,8 @@ list* newList(){
     fprintf (stderr, "malloc() failed. List initialization error.\n");
     exit(1);
   }
-  
+
+  l->head = NULL;
   l->len = 0;
   
   return l;

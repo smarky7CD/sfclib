@@ -1,20 +1,19 @@
-all:
-	gcc ../src/vector.c vector_test.c -o vector -std=c99
-	gcc ../src/stack.c stack_test.c -o stack -std=c99
-	gcc ../src/llist.c llist_test.c -o llist -std=c99
-	gcc ../src/dllist.c dllist_test.c -o dllist -std=c99
+CC=gcc
+CFLAGS = -g -Wall -std=c99
+
+all: vector stack llist dllist
 
 vector:	
-	gcc ../src/vector.c vector_test.c -o vector -std=c99
+	$(CC) ../src/vector.c vector_test.c -o vector $(CFLAGS)
 
 stack:
-	gcc ../src/stack.c stack_test.c -o stack -std=c99
+	$(CC) ../src/stack.c stack_test.c -o stack $(CFLAGS)
 
 llist:
-	gcc ../src/llist.c llist_test.c -o llist -std=c99
+	$(CC) ../src/llist.c llist_test.c -o llist $(CFLAGS)
 
 dllist:
-	gcc ../src/dllist.c dllist_test.c -o dllist -std=c99
+	$(CC) ../src/dllist.c dllist_test.c -o dllist $(CFLAGS)
 
 clean:
 	rm -f vector stack llist dllist 

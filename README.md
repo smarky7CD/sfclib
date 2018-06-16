@@ -2,10 +2,12 @@
 
 This is my personal C-library. Some of it may be useful for projects, other stuff is just for fun/experimentation. Feel free to play with.
 
-## To-Do
+## To-Do List
 
-* Fix 1 Error Valgrind is reporting in llist and dllist
-* Clean up Makefile for tests
-* Implement Matrix data structure
-
+* Binary Search Trees
+* Heaps
+* Matrix
+* Graphs (Adjancency List and Adjaceny Matrix)
+* Stream
+* Hash Table
 
