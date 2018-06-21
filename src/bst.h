@@ -13,23 +13,37 @@ typedef struct node_tag{
 }node;
 
 typedef struct{
-  node* roots;
+  node* root;
   int size;
 }bst;
 
 bst* newBST();
 
-void deleteBST(bst* t);
-
 node* newNode(TYPE v);
+
+TYPE nodeValue(node* n);
+
+void deleteAllNodes(node* r);
+
+void deleteBST(bst* t);
 
 void insert(bst* t, TYPE i);
 
-TYPE find(bst* t, TYPE f);
+int insertNode(node*c, TYPE i);
 
-void del(bst* t, TYPE d);
+node* search(bst* t, TYPE s);
+
+node* searchNodes(node* n, TYPE s);
+
+node* getMin(node* m);
+
+node* delete(bst* t, TYPE d);
+
+node* deleteNode(node* n, TYPE d);
 
 int getSize(bst* t);
 
-int getHeight(bst* t);
+void printTree(bst* t);
+
+void printNodes(node * p);
 #endif
