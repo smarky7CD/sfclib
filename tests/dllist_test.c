@@ -1,4 +1,4 @@
-#include "../src/dllist.h"
+#include "../include/dllist.h"
 
 #define N printf("\n");
 

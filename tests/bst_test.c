@@ -1,4 +1,4 @@
-#include "../src/bst.h"
+#include "../include/bst.h"
 
 #define N printf("\n");
 

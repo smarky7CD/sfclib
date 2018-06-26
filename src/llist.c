@@ -1,4 +1,4 @@
-#include "llist.h"
+#include "../include/llist.h"
 
 list* newList(){
   list* l = (list*) malloc(sizeof(list));   

@@ -1,4 +1,4 @@
-#include "dllist.h"
+#include "../include/dllist.h"
 
 dlist* newList(){
   dlist* l = (dlist*) malloc(sizeof(dlist));   

@@ -1,4 +1,4 @@
-#include "../src/vector.h"
+#include "../include/vector.h"
 
 #define N printf("\n");
 

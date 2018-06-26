@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "../include/vector.h"
 
 vector* newVector(){
   vector* v = (vector*) malloc(sizeof(vector));   

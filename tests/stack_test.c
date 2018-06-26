@@ -1,4 +1,4 @@
-#include "../src/stack.h"
+#include "../include/stack.h"
 
 #define N printf("\n");
 

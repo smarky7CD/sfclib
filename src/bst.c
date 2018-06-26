@@ -1,4 +1,4 @@
-#include "bst.h"
+#include "../include/bst.h"
 
 bst* newBST(){
   bst* t = (bst*) malloc(sizeof(bst));   
