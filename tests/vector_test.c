@@ -26,7 +26,11 @@ int main(){
   push(t,3);
   printVector(t);
   N;
-  
+
+  // len test
+  printf("Vector size = %d\n",len(t));
+  N;
+
   // test find
   printf("Testing find\n");
   printf("7 is at position: %d\n", find(t,7));
@@ -44,9 +48,12 @@ int main(){
   del(t,9);
   del(t,5);
   printVector(t);
-  printf("t->cur = %d\n", t->end);
   N;
-  
+
+  // len test
+  printf("Vector size = %d\n",len(t));
+  N;
+
   //test insert
   printf("Testing insert\n");
   insert(t,0,17);
@@ -55,6 +62,11 @@ int main(){
   printVector(t);
   N;
 
+
+  // len test
+  printf("Vector size = %d\n",len(t));
+  N;
+  
   //test search
   printf("Testing search\n");
   printf("19?: %d\n", search(t,19));

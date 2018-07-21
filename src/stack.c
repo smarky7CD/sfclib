@@ -44,3 +44,7 @@ TYPE peek(stack* s){
 void pop(stack* s){
   s->top--;
 }
+
+int len(stack* s){
+  return s->top;
+}

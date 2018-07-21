@@ -156,3 +156,7 @@ void del(vector* v, int r){
 void sort(vector* v){
   quickSort(v->vec, 0, v->end-1); //call to quickSort with init args
 };
+
+int len(vector* v){
+  return v->end;
+}

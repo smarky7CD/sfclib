@@ -22,4 +22,6 @@ void push(stack* s, int p);
 TYPE peek(stack* s);
 
 void pop(stack* s);
+
+int len(stack* s);
 #endif

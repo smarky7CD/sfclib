@@ -28,4 +28,6 @@ int search(vector*v, int t);
 void del(vector* v, int r);
   
 void sort(vector* v);
+
+int len(vector* v);
 #endif

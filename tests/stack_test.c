@@ -27,6 +27,10 @@ int main(){
   printStack(t);
   N;
 
+  // len test
+  printf("Stack size = %d\n",len(t));
+  N;
+
   //test peek and pop
   printf("Testing peeking and popping\n");
   printf("Peek: %d\n", peek(t));
@@ -38,6 +42,10 @@ int main(){
   printf("Peek: %d\n", peek(t));
   printf("Popping...\n");
   pop(t);
+  N;
+
+  // len test
+  printf("Stack size = %d\n",len(t));
   N;
   
   //test deletion
